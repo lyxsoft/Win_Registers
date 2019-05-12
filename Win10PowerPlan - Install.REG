@@ -1,0 +1,37 @@
+Windows Registry Editor Version 5.00
+;
+; LyxSoft
+;
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\LyxSwitchPowerPlan]
+"Icon"="powercpl.dll"
+"MUIVerb"="切换电源计划"
+"Position"="Top"
+"SubCommands"=""
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\LyxSwitchPowerPlan\Shell\Balanced]
+"MUIVerb"="平衡"
+"Icon"="powercpl.dll"
+[HKEY_CURRENT_USER\Software\DesktopBackground\Shell\LyxSwitchPowerPlan\Shell\Balanced\Command]
+@="powercfg.exe /S 381b4222-f694-41f0-9685-ff5bb260df2e"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\LyxSwitchPowerPlan\Shell\Presentation]
+"MUIVerb"="演示"
+"Icon"="powercpl.dll"
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\LyxSwitchPowerPlan\Shell\Presentation\Command]
+@="powercfg.exe /S 83f727c2-847a-4b21-85bc-f54f120cadcc"
+
+;[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\LyxSwitchPowerPlan\Shell\HighPerformance]
+;"MUIVerb"="高性能"
+;"Icon"="powercpl.dll"
+;[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\LyxSwitchPowerPlan\Shell\HighPerformance\Command]
+;@="powercfg.exe /S 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c"
+
+;[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\LyxSwitchPowerPlan\Shell\PowerSaver]
+;"MUIVerb"="节能"
+;"Icon"="powercpl.dll"
+;[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\LyxSwitchPowerPlan\Shell\PowerSaver\Command]
+;@="powercfg.exe /S a1841308-3541-4fab-bc81-f71556f20b4a"
+
+;
+;	End
+;
