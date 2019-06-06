@@ -2,6 +2,9 @@ Windows Registry Editor Version 5.00
 ;
 ; LyxSoft
 ;
+; [Key "83f727c2-847a-4b21-85bc-f54f120cadcc" need to be changed to the key created in the power management
+;
+;
 [HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\LyxSwitchPowerPlan]
 "Icon"="powercpl.dll"
 "MUIVerb"="切换电源计划"
